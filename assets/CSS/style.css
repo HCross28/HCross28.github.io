@@ -1,0 +1,9 @@
+h1 {
+    float: left; 
+}
+
+#nav ul {
+    text-decoration: none;
+    list-style: inline;
+    float: right;
+}
