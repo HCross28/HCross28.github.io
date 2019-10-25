@@ -1,3 +1,16 @@
+body {
+    background-image: url("../images/retina_wood.png");
+    background-repeat: repeat;
+}
+
+
+header {
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0px;
+}
+
 #name {
     float: left; 
     display: block;
@@ -31,14 +44,29 @@ nav ul li a {
     line-height: 22px;
     padding-left: 20px;
     border-left: 1px solid #ddd;
-}
-
-#name {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: bold;
-    background-color: #4aaaa5;
-
 }
+
+a:hover {
+    color: #4aaaa5;
+    transition: 0.5s; 
+}
+
+#content {
+    border: 1px solid;
+    border-color: #dddddd;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
 .wrapper{
     width: 960px;
     margin: 0 auto;
@@ -46,3 +74,12 @@ nav ul li a {
     overflow: hidden;
 }
 
+.trophy {
+    float: left;
+    margin-right: 30px;
+    width: 300px;
+    border: solid;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    margin: 0px 10px 0px 0px;
+}
