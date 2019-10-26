@@ -21,9 +21,6 @@ header {
 
 #my-name {
     float: left; 
-    display: block;
-    position: fixed;
-    left: 339px;
     background-color: #4aaaa5;
     color: #fff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -41,12 +38,8 @@ nav {
     float: right;
 }
 
-nav ul {
-    display: block;
-}
-
 nav ul li {
-    display: inline-block;
+    display: inline;
     line-height: 60px;
 }
 
@@ -75,8 +68,9 @@ a:hover {
 #content {
     border: 1px solid;
     border-color: #dddddd;
-    padding: 20px;
     background-color: #fff;
+    padding: 20px;
+    width: 920px;
     position: relative;
     top: 140px;
 }
@@ -93,10 +87,9 @@ h2 {
 
 .wrapper{
     width: 960px;
-    margin: 0 auto;
-    clear: both;
+    margin: 0px auto;
     overflow: hidden;
-    padding: 0;
+    padding: 0px;
 }
 
 .trophy {
